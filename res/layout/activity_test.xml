@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sd_login_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true" 
+    android:orientation="vertical" >
+
+    <EditText
+                android:id="@+id/editText"
+                android:layout_width="fill_parent"
+        		android:layout_height="40sp"
+        		android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/smssdk_input_bg_focus"
+                android:hint="获取焦点清除hint功能普通输入框"               
+                />
+    
+    <com.example.customview.ClearEditText
+                android:id="@+id/clearEditText"
+                android:layout_width="fill_parent"
+        		android:layout_height="40sp"
+        		android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/smssdk_input_bg_focus"
+                android:hint="带删除功能普通输入框"               
+                />
+    
+    <com.example.customview.AutoEmailComplete
+        android:id="@+id/autoEmailComplete"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/smssdk_input_bg_focus"
+        android:hint="带删除功能邮箱自动补全输入框" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+
+    <string-array name="email_suffix">
+        <item>gmail.com</item>
+    	<item>foxmail.com</item>
+    	<item>hotmail.com</item>
+    	<item>yahoo.cn</item>
+    	<item>msn.com</item>
+        <item>qq.com</item>
+        <item>sina.com</item>
+    	<item>sohu.com</item>
+        <item>163.com</item>
+    	<item>126.com</item>
+    	<item>139.com</item>  
+    </string-array>
+    
+</resources>
